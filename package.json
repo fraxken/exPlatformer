@@ -1,0 +1,19 @@
+{
+  "name": "explatformer",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env tsc && electron .",
+    "build": "cross-env tsc && electron-packager . --out=dist --asar --overwrite --all"
+  },
+  "dependencies": {
+    "excalibur": "^0.20.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "electron": "^4.0.0",
+    "electron-packager": "^13.0.1",
+    "typescript": "^3.2.2"
+  }
+}
